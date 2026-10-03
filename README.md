@@ -5,6 +5,7 @@ A robust, console-based **Bank Management System** developed in Java. Built as a
 ---
 
 ## 📋 Table of Contents
+
 - [Features](#-features)
 - [System Architecture](#-system-architecture)
 - [Tech Stack & Prerequisites](#-tech-stack--prerequisites)
@@ -19,9 +20,11 @@ A robust, console-based **Bank Management System** developed in Java. Built as a
 ## ✨ Features
 
 ### 🔑 Role-Based Access Control
+
 The application separates administrative actions from standard banking customer operations through distinct login menus.
 
 #### 🛠️ Admin Portal
+
 - **Create Account**: Register new bank accounts with name validation, age verification (18–100 years), unique numerical ID checking, and initial deposit setup.
 - **View All Accounts**: Display a full roster of registered bank accounts with current balances and account details.
 - **Update Account**: Modify account details (name, age, balance) while maintaining account ID integrity.
@@ -30,6 +33,7 @@ The application separates administrative actions from standard banking customer 
 - **View Transaction Logs**: Review complete timestamped audit logs of all monetary transfers.
 
 #### 👤 User Portal
+
 - **User Authentication**: Secure login requiring account holder's registered name and Account ID.
 - **View Account Details**: Inspect personal profile information (Name, Age, ID, Balance).
 - **View Balance**: Quick account balance inquiry.
@@ -39,6 +43,7 @@ The application separates administrative actions from standard banking customer 
 ## 🏗️ System Architecture & Data Storage
 
 The application leverages Java File I/O for persistent data management:
+
 - **`accounts.txt`**: Master database file storing CSV-formatted account records (`Name,Age,ID,Balance`).
 - **`transactions.txt`**: Audit log recording timestamped fund transfers.
 - **`<UserName>.txt`**: Individual user profile data file created upon account registration.
@@ -57,17 +62,20 @@ The application leverages Java File I/O for persistent data management:
 ## 🚀 Installation & Execution
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/bank-management-system.git
 cd bank-management-system
 ```
 
 ### 2. Compile the Source Code
+
 ```bash
 javac bankSystem.java
 ```
 
 ### 3. Run the Application
+
 ```bash
 java bankSystem
 ```
@@ -78,10 +86,10 @@ java bankSystem
 
 For testing and demonstration, use the pre-configured admin credentials:
 
-| Field | Default Value |
-| :--- | :--- |
-| **Admin Name** | `Admin` |
-| **Password** | `Admin1234` |
+| Field          | Default Value |
+| :------------- | :------------ |
+| **Admin Name** | `Admin`       |
+| **Password**   | `Admin1234`   |
 
 ---
 
@@ -102,6 +110,7 @@ For testing and demonstration, use the pre-configured admin credentials:
 ## 📄 Documentation & Attachments
 
 This repository includes full academic project documentation:
+
 - 📊 **Presentation**: `BANK MANAGEMENT SYSTEM.pptx`
 - 📑 **Report**: `Bank Management System.docx`
 - 📌 **Specification**: `PF_SEMESTER_PROJECT.pdf`
@@ -110,4 +119,8 @@ This repository includes full academic project documentation:
 
 ## 👨‍💻 Author
 
-Developed for **Programming Fundamentals (PF) Semester Project**.
+**Ali Hamza**
+BS Cyber Security
+COMSATS University Islamabad
+
+Developed for **Programming Fundamentals (PF) 1st Semester Project**.
